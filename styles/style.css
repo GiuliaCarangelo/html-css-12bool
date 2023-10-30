@@ -1,0 +1,28 @@
+/*  RESET  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+}
+
+.row{
+    margin-bottom: .5rem;
+}
+
+[class*="col-"]{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #006cfa;
+    height: 100px;
+}
+
+.container{
+    max-width: 1170px;
+}
